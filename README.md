@@ -27,7 +27,7 @@ find . -name '*.pdf' | sort -V | xargs pdfmerge --out merged.pdf --files
 Add page numbers
 
 ```sh
-# basic merge
+# basic page no
 pdfpageno --file file --out output.pdf
 ```
 
