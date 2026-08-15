@@ -22,3 +22,11 @@ Add page numbers
 # basic merge
 pdfpageno --file file --out output.pdf
 ```
+
+## Development
+
+Run test cases.
+
+```sh
+pytest
+```
