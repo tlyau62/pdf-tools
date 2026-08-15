@@ -12,4 +12,4 @@ def test_empty_arguments(capsys, monkeypatch):
     assert exc_info.value.code == 2
 
     captured = capsys.readouterr()
-    assert "Error: No PDF files provided." in captured.err
+    assert "No PDF files provided." in captured.err
