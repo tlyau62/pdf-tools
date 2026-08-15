@@ -27,6 +27,8 @@ def merge_pdfs(args: Args):
     page_count = 0
     pdf_files = [Path(file) for file in args.files]
 
+    print(f'number of files to merge: {len(pdf_files)}')
+
     for pdf in pdf_files:
         reader = PdfReader(str(pdf))
 
