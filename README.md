@@ -15,3 +15,10 @@ pdfmerge --files file1 file2 ... --out merged.pdf
 # find and merge in order
 find . -name '*.pdf' | sort -V | xargs pdfmerge --out merged.pdf --files
 ```
+
+Add page numbers
+
+```sh
+# basic merge
+pdfpageno --file file --out output.pdf
+```
