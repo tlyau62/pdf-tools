@@ -19,6 +19,9 @@ def parse_args() -> Args:
 
     args = parser.parse_args()
 
+    if not args.files:
+        parser.error("Error: No PDF files provided.")
+
     return Args(files=args.files, out=args.out)
 
 
