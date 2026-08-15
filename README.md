@@ -2,6 +2,14 @@
 
 A collection of PDF scripts.
 
+## Install
+
+```sh
+git clone https://github.com/tlyau62/pdf-tools
+uv sync
+uv tool install .
+```
+
 ## Commands
 
 Merge pdfs
